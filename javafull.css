@@ -1,0 +1,243 @@
+#footup {
+    display: inline-flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    color: white;
+
+    background-color: #381457;
+}
+nav {
+
+    display: inline-flex;
+    justify-content: flex-start;
+    text-decoration: none;
+    text-transform: capitalize;
+    border-bottom: 2px solid red;
+
+    width: 100%;
+    padding: 10px;
+}
+.firstdiv{
+    background-color: #381463;
+    padding-left: 100px;
+    color: white;
+
+
+}
+
+.color{
+    color: red;
+
+}
+
+.firstdiv button{
+    background-color: blueviolet;
+    color: black;
+    font-size: larger;
+    border-radius: 55px;
+    padding: 10px;
+}
+.mdiv{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+h3{
+    text-align: center;
+}
+h4{
+    text-align: center;
+
+}
+
+.firstdiv p{
+    width: 850px;
+}
+.divright{
+    position: absolute;
+    top: 530px;
+    left: 950px;
+}
+.div2m{
+    padding-left: 20px;
+}
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+.divimg {
+    text-align: center;
+    border: 2px solid blanchedalmond;
+    border-radius: 50px;
+
+}
+.divimg button{
+background-color: navy;
+color: white;
+}
+.img1 {
+    width: 200px;
+    height: 60px;
+    margin-left: 80px;
+
+
+}
+.divicon {
+
+    display: inline-flex;
+    justify-content: space-evenly;
+    width: 50%;
+
+    margin-left: 170px;
+    align-items: center;
+
+
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+}
+.imgfoot {
+    width: 250px;
+    height: 35px;
+}
+#footdown {
+
+    width: 100%;
+    border: 2px solid;
+    background-color:  #381457;
+
+
+    padding-top: 10px;
+    text-transform: capitalize;
+
+}
+footer h3{
+    color: orangered;
+    font-size: 22px;
+}
+.fdiv1 {
+    width: 280px;
+
+    padding: 10px;
+}
+
+.fdiv2 {
+
+    padding: 10px;
+    padding-top: 5px;
+}
+
+.fdiv3 {
+
+    padding: 10px;
+    padding-top: 5px;
+}
+
+.fdiv4 {
+
+    padding: 10px;
+    padding-top: 5px;
+}
+
+.fdiv5 {
+
+    padding: 10px;
+    padding-top: 5px;
+}
+span {
+    color: red;
+}
+.fdiv2 p{
+    font-size: 18px;
+    color: white;
+}
+.fdiv3 p{
+    font-size: 18px;
+    color: white;
+}.fdiv4 p{
+    font-size: 18px;
+    color: white;
+}.fdiv5 p{
+    font-size: 18px;
+    color: white;
+}.fdiv1 p{
+    font-size: 18px;
+    color: white;
+
+}
+#divfoot{
+    padding-left: 80px;
+    padding-right: 80px;
+    display: inline-flex;
+    justify-content: space-evenly;
+
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.footdiv3 {
+    padding: 15px;
+}
+@media (max-width:675px) {
+    #footdown{
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+    #footup{
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+            }
+            nav{
+                flex-direction: column;
+                padding: 0%;
+                width: 100%;
+
+            }
+            .img1{
+                margin-left: 0px;
+                margin-left: 100px;
+            }
+            .divicon{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                margin-left: 0%;
+            }
+            .divmain1{
+                flex-direction: column;
+                padding-left: 0px;
+                padding-right: 0px;
+            }
+            .div2m{
+                flex-direction: column;
+                padding-left: 0px;
+                padding-right: 0px;
+            }
+            .img2{
+                width: 300px;
+                height: 250px;
+                margin-left: 20px;
+            }
+            #divfoot{
+                flex-direction: column;
+                padding-left: 0px;
+                padding-right: 0px;
+
+            }
+            .firstdiv{
+                padding-left: 0px;
+                padding-right: 0px;
+            }
+            .mdiv{
+                padding-left: 0px;
+                padding-right: 0px;
+            }
+}

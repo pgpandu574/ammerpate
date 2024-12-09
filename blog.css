@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+header{
+    background:linear-gradient(to right,rgb(31, 14, 99),rgb(17, 6, 62) 100%);
+    color: white;
+    display: flex;
+    padding: 10px 20px;
+    height: 12px;
+    font-size: 12px;
+    justify-content: space-around;
+    
+}
+nav{
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid red;
+    
+}
+.ameerpet{
+    width: 170px;
+    height: 50px;
+    
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(17, 6, 62);
+    
+}
+.nav{
+    width: 500px;
+    margin-left: 300px;
+    /* border: 2px solid black; */
+    display: flex;
+    padding: 12px;
+    justify-content: space-between;
+}
+img{
+    width: 400px;
+}
+.home{
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+#learn,#java,#full{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* border: 2px solid black; */
+}
+h3{
+    color: rgb(98, 97, 97);
+}
+#learn p,#java p,#full p{
+    color: gray;
+    
+    margin-left: -160px;
+}
+#learn span,#java span,#full span{
+    color: rgb(47, 255, 57);
+    margin-top: 15px;
+    margin-left: -295px;
+}
+
+
+footer li{
+    list-style: none;
+}
+footer{
+    background-color: rgb(17, 6, 62);
+    color: white;
+    font-size: 15px;
+}
+.footer{
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.head4 i{
+    color: white;
+}
+
+.one{
+    width: 250px;
+}
+.five{
+    width: 250px;
+}
+.one,.two,.three,.four,.five{
+    padding-bottom: 30px;
+    /* border: 2px solid white; */
+    text-align: center;
+}
+.one,.five{
+    /* border: 2px solid white; */
+    margin-left: 30px;
+}
+.s2{
+    color: red;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+div p i{
+    color: white;
+}
+
+
+
+
+
+
+
+@media(max-width:412px){
+    header{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 4px;
+        height: fit-content;
+        font-size: 10px;
+    }
+    .nav{
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        font-size: 10px;
+        margin-left: -170px;
+        /* border: 2px solid black; */
+        margin-top: 50px;
+    }
+    .home{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 0;
+    }
+    #learn,#java,#full{
+        display: flex;
+        align-items: start;
+        width: 250px;
+        
+    }
+    p{
+        margin-left: 0;
+    }
+    #learn h3{
+        width: 90%;
+    }
+    #java h3{
+        width: 80%;
+    }
+    span{
+        margin-left: 0;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }  
+}

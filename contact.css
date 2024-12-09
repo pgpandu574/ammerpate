@@ -1,0 +1,254 @@
+#footup {
+    display: inline-flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    color: white;
+
+    background-color: #381457;
+}
+nav {
+
+    display: inline-flex;
+    justify-content: flex-start;
+    text-decoration: none;
+    text-transform: capitalize;
+    border-bottom: 2px solid red;
+
+    width: 100%;
+    padding: 10px;
+}
+.img1 {
+    width: 200px;
+    height: 60px;
+    margin-left: 80px;
+
+
+}
+.divicon {
+
+    display: inline-flex;
+    justify-content: space-evenly;
+    width: 50%;
+
+    margin-left: 170px;
+    align-items: center;
+
+
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+}
+.imgfoot {
+    width: 250px;
+    height: 35px;
+}
+#footdown {
+
+    width: 100%;
+    border: 2px solid;
+    background-color:  #381457;
+
+
+    padding-top: 10px;
+    text-transform: capitalize;
+
+}
+footer h3{
+    color: orangered;
+    font-size: 22px;
+}
+.fdiv1 {
+    width: 280px;
+
+    padding: 10px;
+}
+
+.fdiv2 {
+
+    padding: 10px;
+    padding-top: 5px;
+}
+
+.fdiv3 {
+
+    padding: 10px;
+    padding-top: 5px;
+}
+
+.fdiv4 {
+
+    padding: 10px;
+    padding-top: 5px;
+}
+
+.fdiv5 {
+
+    padding: 10px;
+    padding-top: 5px;
+}
+span {
+    color: red;
+}
+.fdiv2 p{
+    font-size: 18px;
+    color: white;
+}
+.fdiv3 p{
+    font-size: 18px;
+    color: white;
+}.fdiv4 p{
+    font-size: 18px;
+    color: white;
+}.fdiv5 p{
+    font-size: 18px;
+    color: white;
+}.fdiv1 p{
+    font-size: 18px;
+    color: white;
+
+}
+#divfoot{
+    padding-left: 80px;
+    padding-right: 80px;
+    display: inline-flex;
+    justify-content: space-evenly;
+
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.footdiv3 {
+    padding: 15px;
+}
+#maindiv{
+    display: inline-flex;
+
+    width: 85%;
+    justify-content: space-evenly;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 100px;
+    margin-top: -35px;
+}
+
+.divaddress{
+    margin-left: 50px;
+    padding: 20px;
+}
+.divadd{
+    margin-top: -20px;
+}
+.divicons{
+    background-color: red;
+    width: fit-content;
+    color: white;
+    font-size: 20px;
+}
+.divi{
+    margin-top: 30px;
+
+    margin-left:200px;
+    padding: 20px;
+}
+h1{
+    font-size: 35px;
+    font-family: sans-serif;
+}
+h3{
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.divdid{
+padding: 15px;
+font-family: sans-serif;
+border-bottom: 2px solid lightgray;
+display: inline-flex;
+justify-content: flex-start;
+gap: 15px;
+width: 400px;
+
+}
+.divdid1{
+    display: inline-flex;
+justify-content: flex-start;
+gap: 15px;
+width: 400px;
+padding: 15px;
+}
+@media (max-width:475px) {
+    #footdown{
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+    #footup{
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+            }
+            nav{
+                flex-direction: column;
+                padding: 0%;
+                width: 100%;
+
+            }
+            .img1{
+                margin-left: 0px;
+                margin-left: 100px;
+            }
+            .divicon{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                margin-left: 0%;
+            }
+            #maindiv{
+                flex-direction: column;
+                width: 100%;
+                padding-left: 0px;
+                padding-right: 0px;
+                padding-bottom: 0px;
+                margin-left: 0px;
+
+            }
+            #divfoot{
+                flex-direction: column;
+                padding-left: 0px;
+                padding-right: 0px;
+                margin-top: 0px;
+                width: 100%;
+
+            }
+            .divi{
+                margin-top: 0px;
+                margin-left: 0px;
+                padding: 0px;
+                width: 300px;
+                height: 300px;
+
+            }
+
+            .divaddress{
+                margin-left: 0px;
+                padding: 0px;
+                margin-top: 20px;
+                font-size: 15px;
+                padding-bottom: 15px;
+                padding-top: 15px;
+
+
+            }
+            .divicons i{
+                font-size: 15px;
+            }
+            #footdown{
+                margin-top: 180px;
+            }
+}
